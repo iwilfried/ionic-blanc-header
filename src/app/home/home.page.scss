@@ -29,3 +29,25 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+
+ion-icon {
+  &.big {
+  width: 32px;
+  height: 32px;
+  }
+}
+
+ion-title.md.title-large {
+  padding-left: 10px;
+  padding-right: 5px;
+  font-family: Roboto Condensed;
+  font-size: 26px;
+  text-align: center;
+  }
+
+  hr.new1 {
+    border-top: 5px solid #21505C;
+    padding: 0px;
+    margin: 0;
+  }
